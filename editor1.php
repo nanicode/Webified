@@ -3,7 +3,7 @@
 
 <head>
 <?php 
-if((("/".$_COOKIE["webifiedusr5"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr4"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr3"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr2"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr1"])!=$_SERVER['REQUEST_URI']))echo '<meta http-equiv=refresh content="0; url=denied.html" />';}}}}
+if((("/".$_COOKIE["webifiedusr5"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr4"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr3"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr2"])!=$_SERVER['REQUEST_URI'])){if((("/".$_COOKIE["webifiedusr1"])!=$_SERVER['REQUEST_URI']))echo '<meta http-equiv=refresh content="3; url=denied.html" />';}}}}echo $_SERVER['REQUEST_URI'];
 
  ?>
 <meta name="viewport" content="width=device-width, initial-scale=1">
